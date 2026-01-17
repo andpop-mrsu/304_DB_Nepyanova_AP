@@ -1,0 +1,29 @@
+﻿Версия SQLite:
+3.51.2 2026-01-09 17:27:48 b270f8339eb13b504d0b2ba154ebca966b7dde08e40c3ed7d559749818cb2075 (64-bit)
+
+Доступные режимы вывода:
+.mode ?MODE? ?OPTIONS?   Set output mode
+   MODE is one of:
+     ascii       Columns/rows delimited by 0x1F and 0x1E
+     box         Tables using unicode box-drawing characters
+     csv         Comma-separated values
+     column      Output in columns.  (See .width)
+     html        HTML <table> code
+     insert      SQL insert statements for TABLE
+     json        Results in a JSON array
+     line        One value per line
+     list        Values delimited by "|"
+     markdown    Markdown table format
+     qbox        Shorthand for "box --wrap 60 --quote"
+     quote       Escape answers as for SQL
+     table       ASCII-art table
+     tabs        Tab-separated values
+     tcl         TCL list elements
+   OPTIONS: (for columnar modes or insert mode):
+     --escape T     ctrl-char escape; T is one of: symbol, ascii, off
+     --wrap N       Wrap output lines to no longer than N characters
+     --wordwrap B   Wrap or not at word boundaries per B (on/off)
+     --ww           Shorthand for "--wordwrap 1"
+     --quote        Quote output text as SQL literals
+     --noquote      Do not quote output text
+     TABLE          The name of SQL table used for "insert" mode
